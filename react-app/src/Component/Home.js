@@ -1,16 +1,17 @@
 import React from "react";
+import Product from "./Product";
 import product from "./Product";
-import product from "./Product";
+
 const Home = () => {
-    const product = [{
+    const Product = [{
        name: 'Computer',
        image:'c:\Users\HP\Downloads\hospital-1802679_1280.jpg',
        description:'This is a sample product for computer.',
        price: 29.99,
        quantity:10,
 
-    },
-    {
+    },{
+    
         name: 'LGTV',
         image:'c:\Users\HP\Downloads\hospital-1802679_1280.jpg',
         description:'This is a sample product for LGTV.',
@@ -27,15 +28,11 @@ const Home = () => {
  
      },
      
-
-
-
-
     ]
     return(
         <div>
             <h1>Home Component</h1>
-            {products.map((product, index) => (
+            {product.map((product, index) => (
                 <Product 
                 key={index}
                 name={product.image}
@@ -46,5 +43,6 @@ const Home = () => {
                 
             ))}
         </div>
-    )
-}
+    );
+};
+export default Home;

@@ -1,5 +1,5 @@
 import React from "react";
-const product =({name, image, description, price, quantity}) => {
+const Product =({name, image, description, price, quantity}) => {
     return (
         <div>
             <h2>{name}</h2>
@@ -10,4 +10,4 @@ const product =({name, image, description, price, quantity}) => {
         </div>
     );
 };
-export default product;
+export default Product;

@@ -3,7 +3,7 @@ import Product from "./Product";
 import product from "./Product";
 
 const Home = () => {
-    const Product = [{
+    const Products = [{
        name: 'Computer',
        image:'c:\Users\HP\Downloads\hospital-1802679_1280.jpg',
        description:'This is a sample product for computer.',

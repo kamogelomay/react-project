@@ -1,9 +1,9 @@
 import React from "react";
 import Product from "./Product";
-import product from "./Product";
+
 
 const Home = () => {
-    const Products = [{
+    const products = [{
        name: 'Computer',
        image:'c:\Users\HP\Downloads\hospital-1802679_1280.jpg',
        description:'This is a sample product for computer.',
@@ -32,7 +32,7 @@ const Home = () => {
     return(
         <div>
             <h1>Home Component</h1>
-            {product.map((product, index) => (
+            {products.map((product, index) => (
                 <Product 
                 key={index}
                 name={product.image}

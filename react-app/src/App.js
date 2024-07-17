@@ -6,11 +6,11 @@ import Home from './Component/Home';
 function App() {
   return (
 <>
-<div className="App">
-  <Home/>
-</div>
+
+  
 
   <div className='App'>
+    <Home />
     <Counter />
   </div>
     <div><p>
